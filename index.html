@@ -30,6 +30,7 @@
             <span class="bar"></span>
         </div>
     </header>
+    <img src="imagens/whatsapp.png" alt="icone-whatsapp" class="icon-whatsapp">
 
     <!-- Menu Lateral (que ficará oculto em telas grandes) -->
     <div class="side-menu" id="side-menu">
@@ -38,6 +39,11 @@
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
+        <div class="redes-sociais">
+            <img class="icons-menu-mobile" src="imagens/icon-instagram.png" alt="">
+            <img class="icons-menu-mobile" src="imagens/customer-service.png" alt="">
+            <img class="icons-menu-mobile" src="imagens/email.png" alt="">
+        </div>
     </div>
 
     <!-- Seção Principal -->
@@ -51,40 +57,44 @@
 
     <!-- Seção Sobre -->
     <section id="sobre" class="about">
-        <h2>Sobre a Clínica</h2>
+        <h2 class="titulo">Sobre a Clínica</h2>
         <p>A Clínica Dr. Alexandre Oliveira oferece atendimento de qualidade e com profissionais qualificados para cuidar de sua saúde com dedicação e respeito.</p>
     </section>
 
     <!-- Serviços -->
     <section id="servicos" class="services">
-        <h2>Serviços</h2>
+        <h2 class="titulo">Serviços</h2>
         <div class="service-item">
-            <h3>Consulta Médica</h3>
+            <h3 class="titulo">Consulta Médica</h3>
+            <img src="imagens/consultamedica.jpg" alt="" height="300px">
             <p>Consultas com o Dr. Alexandre Oliveira para diagnóstico e tratamento de diversas condições.</p>
         </div>
         <div class="service-item">
-            <h3>Exames de Rotina</h3>
+            <h3 class="titulo">Exames de Rotina</h3>
+            <img src="imagens/enfermeira.jpg" alt="" height="300px">
             <p>Realização de exames para acompanhamento de sua saúde preventiva.</p>
         </div>
         <div class="service-item">
-            <h3>Tratamentos Especiais</h3>
+            <h3 class="titulo">Tratamentos Especiais</h3>
+            <img src="imagens/tratamento.jpg" alt="" height="300px">
             <p>Tratamentos personalizados para suas necessidades específicas de saúde.</p>
         </div>
     </section>
 
     <!-- Contato -->
     <section id="contato" class="contact">
-        <h2>Contato</h2>
+        <h2 class="titulo">Contato</h2>
         <form id="form-contato">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <input type="text" id="nome" name="nome" class="campos" required>
 
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" class="campos" required>
 
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <textarea id="mensagem" name="mensagem" rows="4" class="campos" required>
 
+            </textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
