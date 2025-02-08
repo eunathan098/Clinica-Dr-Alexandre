@@ -112,6 +112,10 @@ body {
     width: 100%;
 }
 
+.img-page{
+    height: 400px;
+}
+
 @media (max-width: 768px) {
     .header .nav {
         display: none;
@@ -130,6 +134,10 @@ body {
     
     .hero-text h2, p{
         font-size: 10px;
+    }
+
+    .img-page{
+        height: 200px;
     }
 }
 
@@ -309,3 +317,8 @@ body {
     margin-left: 10px;
     opacity: 0.8;
 }
+
+footer p{
+    color: #fff;
+}
+
