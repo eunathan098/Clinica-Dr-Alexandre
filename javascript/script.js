@@ -23,3 +23,20 @@ document.getElementById('form-contato').addEventListener('submit', function(even
     // Limpar os campos após o envio
     document.getElementById('form-contato').reset();
 });
+
+// função fechar menu mobile 
+
+const btnFecharMenu = document.getElementById("btn-fechar-menu-moble");
+
+btnFecharMenu.addEventListener("click", ()=>{
+    const menuMobile = document.getElementById("side-menu");
+    menuMobile.style.display = "none"
+})
+
+// Funçãodo whatsapp
+
+const iconWhatsapp = document.getElementById("icon-whatsapp");
+
+iconWhatsapp.addEventListener("click", ()=>{
+    alert("Esta função do Whatsapp esta para ser implementada. Aguarde as próximas atualizaçôes....")
+})
