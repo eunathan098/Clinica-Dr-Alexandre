@@ -31,7 +31,7 @@ const btnFecharMenu = document.getElementById("btn-fechar-menu-moble");
 btnFecharMenu.addEventListener("click", ()=>{
     const menuMobile = document.getElementById("side-menu");
     menuMobile.style.display = "none"
-})
+});
 
 // Funçãodo whatsapp
 
@@ -39,7 +39,7 @@ const iconWhatsapp = document.getElementById("icon-whatsapp");
 
 iconWhatsapp.addEventListener("click", ()=>{
     alert("Esta função do Whatsapp esta para ser implementada. Aguarde as próximas atualizaçôes....")
-})
+});
 
 // Função paa agendar consulta
 
@@ -47,4 +47,4 @@ const agendConsulta = document.getElementById("agendar");
 
 agendConsulta.addEventListener("click", ()=>{
     alert("A sua consulta será agendada. Aguarde novas atualizações ...")
-})
+});

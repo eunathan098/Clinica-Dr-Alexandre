@@ -1,18 +1,16 @@
-/* Resetando alguns estilos padrões */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo e Fontes */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Cabeçalho */
 .header {
     display: flex;
     justify-content: space-between;
@@ -144,10 +142,10 @@ body {
 /* Seção Principal */
 .hero {
     background-image: url('../imagens/medico.jpg');
-    background-size: cover; /* A imagem cobre toda a área do banner */
-    background-position: center center; /* A imagem sempre estará centralizada */
-    background-repeat: no-repeat; /* A imagem não será repetida */
-    height: 400px; /* Defina uma altura fixa para o banner */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -290,7 +288,7 @@ iframe{
     padding: 20px;
 }
 
-/* atualizado */
+/* atualizando */
 
 .hero-text{
     padding-top: 100px;
