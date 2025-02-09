@@ -40,3 +40,11 @@ const iconWhatsapp = document.getElementById("icon-whatsapp");
 iconWhatsapp.addEventListener("click", ()=>{
     alert("Esta função do Whatsapp esta para ser implementada. Aguarde as próximas atualizaçôes....")
 })
+
+// Função paa agendar consulta
+
+const agendConsulta = document.getElementById("agendar");
+
+agendConsulta.addEventListener("click", ()=>{
+    alert("A sua consulta será agendada. Aguarde novas atualizações ...")
+})

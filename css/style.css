@@ -209,6 +209,34 @@ body {
     margin-bottom: 10px;
 }
 
+/* Seção Endereço */
+
+.address{
+    display: flex;
+    padding: 30px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 234, 234);
+    flex-direction: column;
+}
+
+.container-address{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: gray; */
+    height: 100%;
+    width: 100%;
+}
+
+iframe{
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+}
+
 /* Seção Contato */
 .contact {
     background-color: white;
@@ -269,7 +297,7 @@ body {
     height: 300px;
 }
 
-.hero-text h2, p{
+.hero-text p{
     color: rgba(0, 0, 0, 0.462);
 }
 
@@ -360,4 +388,5 @@ footer p{
 
 .titulo-primary{
     color: #fff;
+    text-shadow: 0px 0px 100px  black;
 }
