@@ -209,10 +209,6 @@ body {
     margin-bottom: 10px;
 }
 
-.service-item p {
-    font-size: 16px;
-}
-
 /* Seção Contato */
 .contact {
     background-color: white;
@@ -290,6 +286,8 @@ body {
 
 .titulo{
     color: rgba(0, 0, 0, 0.367);
+    /* border-bottom: 5px solid rgba(0, 0, 0, 0.195);
+    border-width: 5px; */
 }
 
 .icon-whatsapp{
@@ -322,3 +320,44 @@ footer p{
     color: #fff;
 }
 
+.descricao{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.header-titulo-logotipo{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+    opacity: 0.4;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav {
+    color: orange;
+}
+
+.container-line{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.line-green{
+    height: 5px;
+    width: 100px;
+    background-color: #28a745;
+    margin-bottom: 50px;
+}
+
+.titulo-primary{
+    color: #fff;
+}
